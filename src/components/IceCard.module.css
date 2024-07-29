@@ -1,0 +1,52 @@
+.icecard{
+   
+    background: rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.5px);
+    -webkit-backdrop-filter: blur(3.5px);
+    border: 2px solid rgba(255, 255, 255, 1);
+    width: 640px;
+    padding: 30px 50px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icecard  img{
+    width: 267px;
+    height: 258px;
+    object-fit:contain;
+    
+
+}
+.icecard .icecontent{
+   
+    line-height: 40px;
+    align-items: start;
+    
+}
+.icecard .cardtitle{
+    font-size: 28px;
+
+}
+.icecard .icp{
+    font-size: 20px;
+}
+.icecard .ibtns{
+    display: flex;
+    justify-content: space-between;
+}
+.icecard .ibtns button{
+    font-size: 18px;
+    background-color: transparent;
+    border-radius: 8px;
+    border-color: white;
+
+    padding: 5px 20px;
+}
+.icecard .icecost p{
+    font-size: 28px;
+    margin-top: 15px;
+}

@@ -1,0 +1,39 @@
+.trendings {
+    display: grid;
+    justify-content: center;
+   
+    margin: 100px 200px;
+}
+.trendings .title{
+    
+    background-color: white;
+    max-width: fit-content;
+    border-radius: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+}
+.hed{
+    
+    
+    margin: 0px 200px;
+   
+    display: flex;
+    justify-content: end;
+}
+.trendings .title p{
+    font-size: 28px;
+    color: black;
+}
+.trendings .title img{
+    width: 58px;
+}
+
+.trendings .list{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
